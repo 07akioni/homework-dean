@@ -11,12 +11,12 @@ node.js v8.9.3 参考安装地址：`https://npm.taobao.org/mirrors/node/v8.9.3/
 如果参考的安装地址软件版本和你的系统不匹配，请自行寻找正确的软件包
 Windows 7 我是在 Windows 7 上进行测试的
 ### 开始
-这一步预计时间：2min
+这一步预计时间：2min(网络状态良好)
 ```
 $ cd homework-dean-master\dean-backend
 $ npm install
 ```
-这一步预计时间：2min
+这一步预计时间：2min(网络状态良好)
 ```
 $ cd homework-dean-master\dean-frontend
 $ npm install
