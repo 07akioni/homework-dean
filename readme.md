@@ -1,6 +1,6 @@
 # 作业说明
 ## 如果你不能以正确的格式阅读这篇文档
-请打开`https://github.com/07akioni/homework-dean`查看
+请打开`https://github.com/07akioni/homework-dean`查看文档
 ## 关于测试整个作业
 由于本人使用 mac 开发，我只能尽力的解决这个项目在 windows 上的运行问题，请尽量确保 windows 上安装的依赖和我所写的版本一致，否则 npm 在安装某些依赖的时候，会出现奇怪的问题（我不具体写出现的原因了）。
 ## 万一出错
@@ -9,7 +9,7 @@
 ### 依赖
 node.js v8.9.3 参考安装地址：`https://npm.taobao.org/mirrors/node/v8.9.3/node-v8.9.3-x64.msi`
 如果参考的安装地址软件版本和你的系统不匹配，请自行寻找正确的软件包
-Windows 7 我是在 Windows 7 上进行测试的
+Windows 7 我是在 Windows 7 上进行测试的，我还找了个人帮忙在 window 10 测了一下
 ### 开始
 这一步预计时间：2min(网络状态良好)
 ```
