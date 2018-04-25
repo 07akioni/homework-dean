@@ -10,13 +10,16 @@ node.js v8.9.3 参考安装地址：`https://npm.taobao.org/mirrors/node/v8.9.3/
 Windows 7 我是在 Windows 7 上进行测试的
 ###开始
 这一步预计时间：2min
-```$ cd homework-dean-master\dean-backend
+```
+$ cd homework-dean-master\dean-backend
 $ npm install
 ```
 这一步预计时间：2min
-```$ cd homework-dean-master\dean-frontend
+```
+$ cd homework-dean-master\dean-frontend
 $ npm install
 ```
-```$ cd homework-dean-master
+```
+$ cd homework-dean-master
 $ node start.js
 ```
