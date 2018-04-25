@@ -23,3 +23,9 @@ $ npm install
 $ cd homework-dean-master
 $ node start.js
 ```
+等待浏览器启动，就成功了
+如果浏览器没有启动，那么就受累手动访问一下 localhost:8000 吧
+出错的话请联系我
+###备注
+数据库文件我已经放在作业里了
+不过为了防止不测 `https://github.com/07akioni/homework-dean/releases/download/0.0.1/course.db` 是一个备份
