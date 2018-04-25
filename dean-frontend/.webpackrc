@@ -1,0 +1,37 @@
+{
+  "extraBabelPlugins": [
+    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+  ],
+  "proxy":{
+    "/table/*": {
+      "target": "http://127.0.0.1:7001",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/lesson/*": {
+      "target": "http://127.0.0.1:7001",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/person/*": {
+      "target": "http://127.0.0.1:7001",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/teach/*": {
+      "target": "http://127.0.0.1:7001",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/choice/*": {
+      "target": "http://127.0.0.1:7001",
+      "changeOrigin": true,
+      "secure": false
+    },
+    "/score/*": {
+      "target": "http://127.0.0.1:7001",
+      "changeOrigin": true,
+      "secure": false
+    }
+  }
+}
