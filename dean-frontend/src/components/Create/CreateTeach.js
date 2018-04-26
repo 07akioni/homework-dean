@@ -18,7 +18,8 @@ class CreateTeach extends React.Component {
     this.check = this.check.bind(this)
     this.submit = this.submit.bind(this)
   }
-  check () {
+  check (e) {
+    e.preventDefault()
     this.props.form.validateFields({ force: true }, (err, values) => {
       if (err) {
       } else {

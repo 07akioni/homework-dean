@@ -35,7 +35,8 @@ class CreateScore extends React.Component {
       })
     })
   }
-  check () {
+  check (e) {
+    e.preventDefault()
     this.props.form.validateFields({ force: true }, (err, values) => {
       if (err) {
         // do nothing
