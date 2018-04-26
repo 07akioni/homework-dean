@@ -2,6 +2,7 @@ import React from 'react'
 import { Form, Button, Select, message } from 'antd'
 import axios from 'axios'
 import { connect } from 'dva';
+import Cookie from 'js-cookie'
 const FormItem = Form.Item;
 const Option = Select.Option
 
@@ -30,7 +31,7 @@ class CreateChoice extends React.Component {
       method: 'post',
       url: '/choice',
       headers: {
-        'x-csrf-token': document.cookie.split(';').map(v => v.split('=')).filter(v => v[0] === 'csrfToken')[0][1]
+        'x-csrf-token': Cookie.get('csrfToken')
       },
       data: {
         pID: values.pID.key,

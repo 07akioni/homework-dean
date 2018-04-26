@@ -2,6 +2,7 @@ import React from 'react'
 import { Table } from 'antd'
 import { Form, Input, Button, message, Divider } from 'antd'
 import axios from 'axios'
+import Cookie from 'js-cookie'
 const FormItem = Form.Item;
 
 
@@ -63,7 +64,7 @@ class QueryByName extends React.Component {
       method: 'get',
       url: '/person',
       headers: {
-        'x-csrf-token': document.cookie.split(';').map(v => v.split('=')).filter(v => v[0] === 'csrfToken')[0][1]
+        'x-csrf-token': Cookie.get('csrfToken')
       },
       params: values
     }).then(res => {
