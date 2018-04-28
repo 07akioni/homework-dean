@@ -20,6 +20,7 @@ Windows 10：我还找了个人帮忙在 Windows 10 测了一下，在环境正�
 $ cd homework-dean-master\dean-backend
 $ npm install
 ```
+如果在安装的时候网络出错，请 `ctrl + c` 之后重新执行 `npm install`
 这一步预计时间：3min(网络状态良好)
 ```
 $ cd homework-dean-master\dean-frontend
